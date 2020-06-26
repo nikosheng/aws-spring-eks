@@ -1,0 +1,23 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /api/v1
+spring:
+  application:
+    name: eks-shipment
+  profiles:
+    active: prod
+
+management:
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
+    shutdown:
+      enabled: false
+

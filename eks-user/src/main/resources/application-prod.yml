@@ -1,0 +1,5 @@
+variables:
+  order:
+    uri: http://${ORDER_HOSTNAME:ecs-order}.ecommerce.com:8000
+  shipment:
+    uri: http://${SHIPMENT_HOSTNAME:ecs-shipment}.ecommerce.com:8001

@@ -1,0 +1,5 @@
+variables:
+  order:
+    uri: http://localhost:8000
+  shipment:
+    uri: http://localhost:8001
